@@ -1,0 +1,237 @@
+body {
+	font-family: verdana;
+	width: 100%;
+	margin: auto; 
+}
+
+p {
+	text-indent: 20pt;
+}
+
+.backer {
+	margin-left: 10%;
+}
+
+.principal {
+	width:100%;
+}
+
+.title {
+	float: right;
+	margin: 10px 200px 0px 0px;	
+}
+
+.logo {
+	height: 125px;
+	background-color: black;
+	border-bottom: 2px #3388ff  solid;
+}
+
+.logo1 {
+	margin: 10px 0px 0px 70px;
+	padding: 10px 0px 0px 0px;
+	float: left;
+}
+
+
+.menu {
+	float: right;
+	margin: -60px 40px 0px 0px;
+	word-spacing: 30px;
+}
+
+.menu ul {
+	margin: 10px 20px 0px 0px;
+	list-style: none;
+
+}
+
+.menu ul li {
+	display: inline-block;
+	height: 58px;
+}
+
+.menu  ul li:hover {
+	border-bottom: 3px  white solid;
+}
+
+.menu a {
+	text-decoration: none;
+	color: #3399ff;
+	font-size: 15pt;
+}
+
+.menu a:hover {
+	color: white; 
+}
+
+#figif {
+	width: 500px;
+	margin: -570px 0px 400px 650px;
+	font-weight: bolder;
+	text-align: justify;
+	text-indent: 20pt;
+	font-style: italic;
+	font-size: 16pt;
+}
+
+#h4 {
+	margin: 0px 0px 0px 0px;
+}
+
+#h1 {
+	text-align: center;
+	margin: 40px 420px 0px 0px;
+	padding: 70px 0px 0px 0px;
+}
+
+#paragrafo-1 {
+	margin: 0px 900px 0px 0px;	
+	text-align: center;
+	font-size: 40pt;
+	color:  #ff4500;
+}
+
+#paragrafo {
+	margin: 0px 0px 0px 0px;
+	font-weight: bolder;
+	word-spacing: 2px; 
+	text-align: justify;
+	text-indent: 20pt;
+	font-style: italic;
+	font-size: 16pt;
+
+}
+
+.back{
+	width: 100%;
+}
+
+.baba {
+	width: 300px;
+	margin: 0px 0px 0px 950px;
+	padding-top: 3%;
+}
+/*.back-1 {
+	background-image: url(imagens/loginfig.gif);
+}*/
+#fig {
+	color: white;
+	font-size: 50pt;
+	margin: 0px 0px 0px 570px;
+	padding-top: 2%;
+	font-family: popping;
+}
+
+#fig a {
+	color: white;
+	text-decoration: none;
+}
+#fig a:hover{
+	color: yellow;
+}
+
+.parag {
+	width: 61%;
+	margin: -160px 0px 170px 40px;
+}
+
+.logo-praias {
+	margin: -688px auto;
+	width: 26%;
+	float: left;
+
+	text-align: center;
+	line-height: 18pt;
+	padding-left: 8%;
+}
+
+.logo-embarc {
+	margin: -688px auto;
+	width: 26%;
+	float: right;
+
+	text-align: center;
+	line-height: 18pt;
+	padding-right: 8%;
+}
+
+.logo-embarc a {
+	text-decoration: none;
+}
+
+.logo-marinas {
+	margin: 155px auto;
+	width: 26%;
+	text-align: center;
+	line-height: 18pt;
+}
+
+#roda-pe {
+	margin: 40px 0px 0px 0px;
+	padding-top: 0%;
+	width: 100%;
+	height: 300px;
+	background-color: black;
+}
+
+#marin {
+	text-align: justify;
+}
+
+#marin a {
+	text-decoration: none;
+}
+
+#praia {
+	text-align: justify;
+}
+
+#praia a {
+	text-decoration: none;
+}
+
+#barco {
+	text-align: justify;
+}
+
+.contat {
+	float: left;
+	width: 30%;
+	margin: -55px 0px 0px 0px;
+	text-align: center;
+	font-size: 15pt;
+	line-height: 18pt;
+}
+
+.inst {
+	margin: -97px auto;
+	width: 30%;
+	text-align: center;
+	font-size: 15pt;
+	line-height: 18pt;
+}
+
+.fee {
+	float: right;
+	width: 30%;
+	margin: -66px auto;
+	font-size: 15pt;
+	text-align: center;
+}
+.fee a {
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+}
+.fee a:hover {
+	border-bottom: 3px  white solid;
+}
+
+.lou {
+	margin: -103px 0px 0px 1057px;
+}
+
+
+
+

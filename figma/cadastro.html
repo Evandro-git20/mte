@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width; initial-scale=1.0">
+	<link rel="stylesheet" href="cadastro.css">
+	<title>Figma</title>
+	<script>
+		function validar(){ 
+			if (document.cad.fnome.value == ""){
+				alert("Campo nome não pode ser vazio");
+				document.cad.fnome.focus();
+				return false;
+			}
+		}
+
+		function validarEmail(){
+			var email = document.querySelector('#email');
+			var error = document.querySelector('#error-email');
+
+			if(!email.checkValidity()){
+				error.innerHTML = " E-mail inválido!";
+			}
+		}
+
+		function redefinirMsg(){
+			var error = document.querySelector('#error-email');
+			if (error.innerHTML == " E-mail inválido!"){
+				error.innerHTML = "";
+			}
+		}
+	</script>
+</head>
+
+<body  style="background-image:url(imagens/logo.png);">
+
+<header class="principal">  
+<div class="logo">
+    <div class="logo1">
+        <a href="Home.html"><img src="imagens/logof.png" width="200" title="Logo" alt="Logo"></a>    
+    </div> 
+    <p id="fig">Figma</p>
+    <div class="menu">
+        <ul>
+            <li><a href="Home.html">Home</a></li>        
+            <li><a href="login.html">Login</a></li>
+        </ul>
+    </div>
+</div>
+</header>
+
+	<div class="aqua">
+		<p class="aqua-2">Dê vida ao seu projeto.</p>
+	</div>
+
+<section class="cont">
+	
+
+	<br>
+
+	<h2 style="text-indent: 10pt">Cadastre-se:</h2>
+	
+<form name="cad" onsubmit="return validar()">
+	<fieldset>
+	<legend>Dados Pessoais</legend>
+	<p>
+		<label for="nome">Nome:</label><input type="text" nome="fnome" size="25" maxlength="30" placeholder="Nome Completo"> 
+	</p>
+
+	<p>
+		<label for="Data">Data de Nascimento:</label><input type="Date" id="Data">
+	</p>
+
+	
+	<label for="Sexo">Sexo:</label>	
+	<label for="Feminino">Feminino</label><input type="radio" id="Feminino" name="sexo" value="F">
+	<label for="Masculino">Masculino</label><input type="radio" id="Masculino" name="sexo" value="M">
+	</fieldset>
+
+	<br>
+
+<fieldset>
+<legend>Dados para Login</legend>
+
+	<p>
+		<label for="E-mail">E-mail:</label><input type="Email" id="email" size="30" maxlength="40" placeholder="E-mail" onblur="validarEmail()" onfocus="redefinirMsg()"><span id="error-email"></span>
+	</p>
+
+	<p>
+	 	<label for="Senha">Senha:</label><input type="password" id="senha" size="8" maxlength="8" placeholder="8 dígitos">
+	</p>
+
+	<p>
+		<label for="Senha">Repetir Senha:</label><input type="password" id="senha" size="8" maxlength="8" placeholder="8 dígitos">
+	</p>
+
+	<p>
+		<label for="foto">Foto de perfil:</label><input type="file" id="foto">
+	</p>
+
+	<p>
+		<input type="submit" value="enviar">
+	</p>
+
+	<p>
+		<input type="reset" id="Limpar" value="Limpar campos">
+	</p>
+
+	<p>
+		<a class="final" href="conclusao.html" onclick="window.alert('Cadastro realizado com sucesso!');">Finalizar Cadastro</a>
+	</p>
+</fieldset>
+</form>
+<br>
+
+</section>
+
+<footer id="roda-pe">
+	<br>
+    <div class="contat">
+        <strong style="color: white">CONTATO</strong>
+        <br>
+        <p style="color: white">figma.org@gmail.com</p>
+    </div>
+
+    <div class="inst">
+        <strong style="color: white">UNIGRANRIO</strong>
+
+        <p style="color: white">Métodos e Técnicas de Engenharia de Software</p>
+    </div>
+    <div class="lou">
+        <img src="imagens/lou.jpg" width="40">
+    </div>
+    <div class="fee">
+        <strong style="color: white">PROFESSOR</strong>
+        <br>
+        <p style="color: white"><a href="https://github.com/AlexandreLouzada" target="self"> Alexandre Neves Louzada</a></p>
+    </div>  
+ </footer>
+
+</body>
+</html>

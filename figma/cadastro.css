@@ -1,0 +1,185 @@
+body {
+	font-family: verdana;
+	width: 100%;
+	margin: auto;
+	background-image: url(imgens/logo.png);
+	background-size: 100%; 
+	background-repeat: no-repeat;
+}
+
+section {
+	width: 99,9%;
+	margin: 1px auto;
+	border-bottom: 5px black solid;
+	border: black 1px solid;
+}
+
+input:invalid {
+	border-color: crimson;
+	box-shadow: 0px 0px 3px;
+	crimson;
+}
+
+input:focus {
+	outline: none;
+}
+
+input:focus:invalid {
+	box-shadow: none;
+}
+
+span {
+	color: crimson;
+}
+
+.logo {
+	height: 125px;
+	background-color: black;
+	border-bottom: 2px #3399ff  solid;
+	margin: 85px auto;	
+}
+
+.logo1 {
+	margin: 10px 0px 0px 0px;
+	padding: 10px 0px 0px 0px;
+	float: left;
+}
+
+#fig {
+	color: #c8a2c8;
+	text-align: center;
+	font-size: 70pt;
+	margin: -85px 200px 0px 0px;
+	font-family: popping; 
+}
+
+.menu {
+	float: left;
+	margin: -85px 0px 0px 1100px;
+	word-spacing: 30px;
+}
+
+.menu ul {
+	margin: 30px 60px 0px 0px;
+	list-style: none;
+
+}
+
+.menu ul li {
+	display: inline-block;
+	height: 58px;
+}
+
+.menu  ul li:hover {
+	border-bottom: 3px  white solid;
+}
+
+.menu a {
+	text-decoration: none;
+	color: #3399ff;
+	font-size: 15pt;
+}
+
+.menu a:hover {
+	color: white; 
+}
+
+.aqua {
+
+	height: 10px; 
+	margin: 150px auto 0px;
+	background-image: url(imagens/file.gif);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.aqua-1 {
+	padding-top: 3%;
+	text-align: center;
+	font-size: 80pt;
+	color: #ff4500;
+	font-family: popping;
+}
+
+.aqua-2 {
+	height: 40px;
+	margin: -43px 10px 0px 0px;
+	color: #4b0082;
+	font-style: italic;
+	font-family: popping;	
+	font-size: 35pt;
+	float: right;
+}
+
+.cont {
+	padding-top: 0.5%;
+	background-color: white;
+	border-bottom: 150px #c8a2c8 solid;
+}
+
+.final {
+	text-decoration: none;
+	color: black;
+}
+
+.final:hover {
+	text-decoration: underline;
+	color: blue;
+}
+
+#roda-pe {
+	width: 100%;
+	height: 100px;
+	background-color: black;
+}
+
+#marin {
+	text-align: justify;
+}
+
+#praia {
+	text-align: justify;
+}
+
+#barco {
+	text-align: justify;
+}
+
+.contat {
+	margin:-15px auto;
+	float: left;
+	width: 30%;
+	text-align: center;
+	font-size: 15pt;
+	line-height: 18pt;
+}
+
+.inst {
+	margin: -30px auto;
+	padding-top: 1%;
+	width: 30%;
+	text-align: center;
+	font-size: 15pt;
+	line-height: 18pt;
+}
+
+.fee {
+	float: right;
+	width: 30%;
+	margin: -46px auto;
+	font-size: 15pt;
+	text-align: center;
+}
+.fee a {
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+}
+.fee a:hover {
+	border-bottom: 3px  white solid; 
+}
+
+.lou {
+	margin: -103px 0px 0px 1030px;
+}
